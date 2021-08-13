@@ -1,0 +1,193 @@
+
+    
+   /*background: linear-gradient(to left bottom, rgba(120, 177, 215, 1), rgba(200, 102, 164, 0.25));*/
+  /*background: linear-gradient(to left bottom, rgb(186, 214, 241), rgba(183, 210, 240, 0.25));*/
+  
+.corousel {
+    margin: auto;
+    
+}
+
+
+@media (max-width: 600px) {
+    .carousel .carousel-item{
+        height: 300px;
+    }
+}
+
+@media (max-width: 600px) {
+    .glass{
+        height: 500px;
+    }
+}
+
+.carousel .carousel-item img{
+    height: 600px;
+    margin: auto;
+    width: 80%;
+    position: relative;
+    
+}
+
+
+
+@media (max-width: 600px){
+    .label{
+     position: absolute;
+        top: 40%;
+        left: 20%;
+      
+    }
+}
+
+.label{
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 20%;
+    z-index: 20;
+    color:black;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    font-family: cursive;
+}
+
+.label button{
+    padding: 8px;
+     background-color: transparent;
+     color:maroon;
+       border-radius: 20px; 
+       width: 120px; 
+}
+    
+
+   .glass{
+        display: flex;
+        position: relative;
+        width: 80%;
+        height: 100px;
+        background: linear-gradient(to left bottom, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.45));
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border-radius: 16px;
+        border: 1p solid rgba(255, 255, 255, 0.15);
+      /* margin: auto;
+       /* margin-top: 100px;*/
+    }
+    .navbar{
+        background: linear-gradient(to left bottom, rgb(42, 43, 44), rgba(183, 210, 240, 0.25));
+        backdrop-filter: blur(5px);
+        position: sticky;
+         z-index: 100;
+          top: 0;
+         }
+
+
+  
+        .row{
+            margin: auto;
+            width: 80%;
+            margin-top: 30px;
+        }
+
+        .line{
+            color: maroon;
+            height: 4px;
+            background-color: maroon;
+            width: 100px;
+            margin: auto;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .raised {
+            box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+        }
+
+        .service{
+            
+            overflow: hidden;
+            position:  relative;
+            margin-top: 10px;
+        }
+
+        .service .service-image{
+            vertical-align: middle;
+            border: 0;
+            max-width: 100%;
+        }
+
+        
+        .service-description{
+            top: 80%;
+            display: block;
+            height: 100%;
+            left: 0;
+            position: absolute;
+            -webkit-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s;
+            width: 100%;
+            z-index: 1;
+            
+        }
+        .service:hover .service-description {
+            top: 0;
+        }
+
+        .service-description:after {
+            background: linear-gradient(to left bottom, rgb(42, 43, 44), rgba(183, 210, 240, 0.25));
+            content: "";
+            height: 100%;
+            left: 0;
+            opacity: 0.8;
+            /*-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; */
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: -1;
+            
+        }
+
+        .service-description h5{
+            color:darkblue;
+            font-weight: bolder;
+        }
+
+        .items{
+            color: white;
+            font-family: cursive;
+        }
+
+        .footer-social-link .texxt-center{
+            color: white;
+            padding: 10px;
+
+        }
+      .card-deck{
+          margin-bottom: 30px;
+          margin: auto;
+          padding: 30px;
+          width: 80%;
+      }
+
+        .footer-social-link{
+           /* background: linear-gradient(to left bottom, rgb(42, 43, 44), rgba(183, 210, 240, 0.25));
+        backdrop-filter: blur(5px);*/
+            top: 60px;
+            margin: auto;
+        }
+        .footer-contents{
+           /* background: linear-gradient(to left bottom, rgb(42, 43, 44), rgba(183, 210, 240, 0.25));
+            backdrop-filter: blur(5px);*/
+                top: 60px;
+                margin: auto;   
+
+        }
+        footer{
+
+            width: 100%;
+            margin-top: 60px;
+            margin: auto;
+            background: linear-gradient(to left bottom, rgb(42, 43, 44), rgba(183, 210, 240, 0.25));
+        }
+
+        
