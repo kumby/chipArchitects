@@ -17,7 +17,7 @@
     <!--start of navbar-->
     <nav class="navbar navbar-expand-md navbar-dark sticky-top" >
       <a class="navbar-brand" href="#">
-        <img src="./IMG/LOG.PNG" width="60" height="40" class="d-inline-block align-center" alt="">
+        <img src="./IMG/LOG.jpg" width="60" height="40" class="d-inline-block align-center" alt="">
       
       </a>
       <button id="nav-toggle-button" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="color: darkblue;">
@@ -38,8 +38,8 @@
           
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="search" onchange="openPage()" value="">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="openPage()">
               <i class="bi-search"></i>
           </button>
         </form>
@@ -194,9 +194,10 @@
     <h5 style="font-family: cursive;">Our Work</h5>
     <hr class="line raised">
   </div> 
+  <div class="fluid-container">
 <div class="row mb-5">
  
-    <div class="col-sm-3 mb-5">
+    <div class="col-md-3 mb-5">
       <div class="work">
         <img src="./IMG/interior design.png" alt="">
         <div class="overlay"></div>
@@ -211,7 +212,7 @@
       </div>
     </div>
     
-    <div class="col-sm-3 mb-5">
+    <div class="col-md-3 mb-5">
       <div class="work">
         <img src="./IMG/3d design.png" alt="">
         <div class="overlay"></div>
@@ -225,7 +226,7 @@
         </div>
       </div>
     </div>
-    <div class="col-sm-3 mb-5">
+    <div class="col-md-3 mb-5">
       <div class="work">
         <img src="./IMG/2d designs.png" alt="">
         <div class="overlay"></div>
@@ -239,7 +240,7 @@
         </div>
       </div>
     </div>
-    <div class="col-sm-3 mb-5">
+    <div class="col-md-3 mb-5">
       <div class="work">
         <img src="./IMG/durawall.jpg" alt="">
         <div class="overlay"></div>
@@ -259,6 +260,7 @@
   
   <a href="./about.html"><button style="padding: 8px; background-color: blue; color:white; width: 150px;  border-radius: 10px;">See Our Services</button></a>
 
+</div>
 </div>
  <!--end of services section-->
 
@@ -382,7 +384,7 @@
 
 <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    
+    <script src="./js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

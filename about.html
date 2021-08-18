@@ -16,7 +16,7 @@
     <!--start of navbar-->
     <nav class="navbar navbar-expand-md navbar-dark sticky-top" >
       <a class="navbar-brand" href="#">
-        <img src="./IMG/LOG.PNG" width="60" height="40" class="d-inline-block align-center" alt="">
+        <img src="./IMG/LOG.jpg" width="60" height="40" class="d-inline-block align-center" alt="" >
       
       </a>
       <button id="nav-toggle-button" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="color: darkblue;">
@@ -37,8 +37,8 @@
           
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="search" onchange="openPage()" value="">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="openPage()">
               <i class="bi-search"></i>
           </button>
         </form>
@@ -64,6 +64,11 @@
 </div>
 <!--vedio end-->
 <div class="fluid-container">
+    <div class="text-center mt-5">
+        <h5 style="font-family: cursive; font-weight: bolder; margin-top: 50px;">Services</h5>
+        <hr class="line raised">
+      </div>  
+       
 <div class="row">
     <div class="col-sm-2"></div>
 
@@ -73,10 +78,10 @@
                 <div class="col-md-4">
                     <div class="container-fluid service">
                         <div class=" service-image">
-                            <img src="./IMG/2d house plans.png" alt=" chip" width="100%">
+                            <img src="./IMG/2d.png" alt=" chip" width="100%">
                         </div> 
                         <div class=" service-description">
-                            <h5>House Plans</h5>
+                            <h5>Layouts</h5>
                             <ul class="items">
                                 <li>
                                     Low density
@@ -90,9 +95,7 @@
                                 <li>
                                     rural homes
                                 </li>
-                                <li>
-                                    boundary walls
-                                </li>
+                               
                             </ul>
                         </div>
                     </div>
@@ -103,7 +106,7 @@
                           <img src="./IMG/2ds.png" alt=" chip" width="100%">
                       </div> 
                       <div class=" service-description">
-                          <h5>2D Designs</h5>
+                          <h5>House plans Designs</h5>
                           <ul class=" items">
                             <li>
                               Low density
@@ -117,9 +120,7 @@
                           <li>
                               rural homes
                           </li>
-                          <li>
-                              boundary walls
-                          </li>
+
                           </ul>
                       </div>
                   </div>
@@ -144,9 +145,7 @@
                           <li>
                               rural homes
                           </li>
-                          <li>
-                              boundary walls
-                          </li>
+
                         </ul>
                     </div>
                 </div>
@@ -171,9 +170,7 @@
                             <li>
                                 rural homes
                             </li>
-                            <li>
-                                boundary walls
-                            </li>
+                           
                             </ul>
                         </div>
                     </div>
@@ -198,9 +195,7 @@
                           <li>
                               rural homes
                           </li>
-                          <li>
-                              boundary walls
-                          </li>
+
                           </ul>
                       </div>
                   </div>
@@ -208,10 +203,10 @@
               <div class="col-md-4">
                 <div class="container-fluid service">
                     <div class=" service-image">
-                        <img src="./IMG/interior design.png" alt=" chip" width="100%">
+                        <img src="./IMG/sub-divisions.jpg" alt=" chip" width="100%">
                     </div> 
                     <div class=" service-description">
-                        <h5>Interior designs</h5>
+                        <h5>Subdivisions</h5>
                         <ul class=" items">
                           <li>
                             Low density
@@ -225,9 +220,7 @@
                         <li>
                             rural homes
                         </li>
-                        <li>
-                            boundary walls
-                        </li>
+                       
                         </ul>
                     </div>
                 </div>
@@ -241,48 +234,7 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis nesciunt voluptatum fugiat porro? Quia nulla corporis fugiat quae nobis ab, eum reprehenderit necessitatibus veniam laborum mollitia suscipit totam unde fugit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, nulla quos nemo modi dolore autem! Exercitationem, nostrum sed voluptatem saepe, libero quibusdam quam, architecto id voluptatum sequi quo ratione et?</p>
             </div>
             </div>
-            
-            <div class="row " >
-                <div class="col-md-8">
-                    <div class="container-fluid album">
-                        <div class=" album-image">
-                            <img src="./IMG/house2.png" alt=" Chip" width="100%" style="border: transparent; border-radius: 10px; height: 350px; ">
-                        </div> 
-                       
-                    </div>
-                </div>
                 
-                <div class=" col-md-4">
-                  <div class="container-fluid album">
-                      <div class=" album-image">
-                        <img src="./IMG/3d design.png" alt=" Chip" width="100%" style="border: transparent; border-radius: 10px; height: 350px;">  
-                        
-                      </div> 
-                      
-                  </div>
-              </div>
-                </div>
-            
-                <div class="row" style="margin-bottom: 20px;">
-                    <div class="col-md-4">
-                        <div class="container-fluid album">
-                            <div class=" album-image">
-                                <img src="./IMG/3d cluster housing.png" alt=" Chip" width="100%" style="border: transparent; border-radius: 10px; height: 350px; ">
-                            </div> 
-                           
-                        </div>
-                    </div>
-                    
-                    <div class=" col-md-8">
-                      <div class="container-fluid album">
-                          <div class=" album-image">
-                            <img src="./IMG/2d designs.png" alt=" Chip" width="100%" style="border: transparent; border-radius: 10px; height: 350px;">  
-                            
-                          </div> 
-                          
-                      </div>
-                  </div>
-                    </div>
 
                     <div class="row " >
                         <div class="col-md-8">
@@ -299,13 +251,420 @@
                         <div class=" col-md-4">
                           <div class="container-fluid album">
                               <div class=" album-image">
-                                <img src="./IMG/DURA2.jpg" alt=" Chip" width="100%" style="border: transparent; border-radius: 10px;">  
+                                <img src="./IMG/flyer.jpg" alt=" Chip" width="100%" style="border: transparent; border-radius: 10px;">  
                                 
                               </div> 
                               
                           </div>
                       </div>
                         </div> 
+
+        <div class="container">
+            <br>
+            <div class="text-center mt-5">
+                <h5 style="font-family: cursive; font-weight: bolder; margin-top: 50px;">Our work</h5>
+                <hr class="line raised">
+              </div>  
+            <div class="row">
+                <h2 class="heading">Double story and cottage</h2> <br>
+                <div class="col-md-4 mb-5">
+                    
+                    <a href="" data-toggle="modal" data-target="#myModal1">
+                        <div>
+                        <img src="./IMG/4.png" class="img-responsive img-rounded" width="100%" height="100%" alt="">
+                    <div class="carousel-caption"><button class="btn btn-info">More</button></div>
+                   </div> 
+                </a>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal1" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title text-center">Image header</h4> 
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          
+        </div>
+        <div class="modal-body">
+          <img src="./IMG/4.png" alt="" width="100%" height="100%">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae sed delectus explicabo autem dicta laudantium mollitia nulla deleniti optio laboriosam sapiente praesentium nisi</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+                </div>
+
+                <div class="col-md-4 mb-5">
+                    
+                    <a href="" data-toggle="modal" data-target="#myModal2">
+                        <div>
+                        <img src="./IMG/10.png" class="img-responsive img-rounded" width="100%" height="100%" alt="">
+                        <div class="carousel-caption"><button class="btn btn-info">More</button></div>
+                   </div>
+                    </a>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title text-center">Image header</h4> 
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          
+        </div>
+        <div class="modal-body">
+          <img src="./IMG/10.png" alt="" width="100%" height="100%">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae sed delectus explicabo autem dicta laudantium mollitia nulla deleniti optio laboriosam sapiente praesentium nisi</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+                </div>
+
+                <div class="col-md-4 mb-5">
+                    
+                    <a href="" data-toggle="modal" data-target="#myModal3">
+                        <div>
+                        <img src="./IMG/3ds.png" class="img-responsive img-rounded" width="100%" height="100%" alt="">
+                        <div class="carousel-caption"><button class="btn btn-info">More</button></div>
+                    </div>
+                    </a>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal3" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title text-center">Image header</h4> 
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          
+        </div>
+        <div class="modal-body">
+          <img src="./IMG/3ds.png" alt="" width="100%" height="100%">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae sed delectus explicabo autem dicta laudantium mollitia nulla deleniti optio laboriosam sapiente praesentium nisi</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+                </div>
+
+<h2 class="heading">Chitope Constructions</h2> <br>
+                <div class="col-md-4 mb-5">
+                    <div>
+                    <a href="" data-toggle="modal" data-target="#myModal4">
+                        <img src="./IMG/8.png" class="img-responsive img-rounded" width="100%" height="100%" alt="">
+                        <div class="carousel-caption"><button class="btn btn-info">More</button></div>
+                        </div>
+                    </a>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal4" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title text-center">Image header</h4> 
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          
+        </div>
+        <div class="modal-body">
+          <img src="./IMG/8.png" alt="" width="100%" height="100%">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae sed delectus explicabo autem dicta laudantium mollitia nulla deleniti optio laboriosam sapiente praesentium nisi</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+                </div>
+
+                <div class="col-md-4 mb-5">
+                    
+                    <a href="" data-toggle="modal" data-target="#myModal5">
+                        <div>
+                        <img src="./IMG/7.png" class="img-responsive img-rounded" width="100%" height="100%" alt="">
+                        <div class="carousel-caption"><button class="btn btn-info">More</button></div>
+                        </div>
+                    </a>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal5" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title text-center">Image header</h4> 
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          
+        </div>
+        <div class="modal-body">
+          <img src="./IMG/7.png" alt="" width="100%" height="100%">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae sed delectus explicabo autem dicta laudantium mollitia nulla deleniti optio laboriosam sapiente praesentium nisi</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+                </div>
+
+                <div class="col-md-4 mb-5">
+                    
+                    <a href="" data-toggle="modal" data-target="#myModal6">
+                        <div>
+                        <img src="./IMG/9.png" class="img-responsive img-rounded" width="100%" height="100%" alt="">
+                        <div class="carousel-caption"><button class="btn btn-info">More</button></div>
+                        </div>
+                    </a>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal6" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title text-center">Image header</h4> 
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          
+        </div>
+        <div class="modal-body">
+          <img src="./IMG/9.png" alt="" width="100%" height="100%">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae sed delectus explicabo autem dicta laudantium mollitia nulla deleniti optio laboriosam sapiente praesentium nisi</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+                </div>
+                <h2 class="heading">2D house plans</h2> <br>
+
+                <div class="col-md-4 mb-5">
+                    
+                    <a href="" data-toggle="modal" data-target="#myModal7">
+                        <div>
+                        <img src="./IMG/2d house plans.png" class="img-responsive img-rounded" width="100%" height="100%" alt="">
+                        <div class="carousel-caption"><button class="btn btn-info">More</button></div>
+                        </div>
+                    </a>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal7" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title text-center">Image header</h4> 
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          
+        </div>
+        <div class="modal-body">
+          <img src="./IMG/2d house plans.png" alt="" width="100%" height="100%">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae sed delectus explicabo autem dicta laudantium mollitia nulla deleniti optio laboriosam sapiente praesentium nisi</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+                </div>
+                
+                <div class="col-md-4 mb-5">
+                    
+                    <a href="" data-toggle="modal" data-target="#myModal8">
+                        <div>
+                        <img src="./IMG/5.png" class="img-responsive img-rounded" width="100%" height="100%" alt="">
+                        <div class="carousel-caption"><button class="btn btn-info">More</button></div>
+                        </div>
+                    </a>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal8" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title text-center">Image header</h4> 
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          
+        </div>
+        <div class="modal-body">
+          <img src="./IMG/5.png" alt="" width="100%" height="100%">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae sed delectus explicabo autem dicta laudantium mollitia nulla deleniti optio laboriosam sapiente praesentium nisi</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+                </div>
+                
+                <div class="col-md-4 mb-5">
+                    
+                    <a href="" data-toggle="modal" data-target="#myModal9">
+                        <div>
+                        <img src="./IMG/6.png" class="img-responsive img-rounded" width="100%" height="100%" alt="">
+                        <div class="carousel-caption"><button class="btn btn-info">More</button></div>
+                        </div>
+                    </a>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal9" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title text-center">Image header</h4> 
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          
+        </div>
+        <div class="modal-body">
+          <img src="./IMG/6.png" alt="" width="100%" height="100%">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae sed delectus explicabo autem dicta laudantium mollitia nulla deleniti optio laboriosam sapiente praesentium nisi</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+                </div>
+                <h2 class="heading">3D cluster housing</h2> <br>
+                <div class="col-md-4 mb-5">
+                    
+                    <a href="" data-toggle="modal" data-target="#myModal10">
+                        <div>
+                        <img src="./IMG/3.png" class="img-responsive img-rounded" width="100%" height="100%" alt="">
+                        <div class="carousel-caption"><button class="btn btn-info">More</button></div>
+                        </div>
+                    </a>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal10" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title text-center">Image header</h4> 
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          
+        </div>
+        <div class="modal-body">
+          <img src="./IMG/3.png" alt="" width="100%" height="100%">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae sed delectus explicabo autem dicta laudantium mollitia nulla deleniti optio laboriosam sapiente praesentium nisi</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+                </div>
+
+                <div class="col-md-4 mb-5">
+                    
+                    <a href="" data-toggle="modal" data-target="#myModal11">
+                        <div>
+                        <img src="./IMG/1.jpg" class="img-responsive img-rounded" width="100%" height="100%" alt="">
+                        <div class="carousel-caption"><button class="btn btn-info">More</button></div>
+                        </div>
+                    </a>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal11" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title text-center">Image header</h4> 
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          
+        </div>
+        <div class="modal-body">
+          <img src="./IMG/1.jpg" alt="" width="100%" height="100%">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae sed delectus explicabo autem dicta laudantium mollitia nulla deleniti optio laboriosam sapiente praesentium nisi</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+                </div>
+                
+                <div class="col-md-4 mb-5">
+                    
+                    <a href="" data-toggle="modal" data-target="#myModal12">
+                        <div>
+                        <img src="./IMG/11.png" class="img-responsive img-rounded" width="100%" height="100%" alt="">
+                        <div class="carousel-caption"><button class="btn btn-info">More</button></div>
+                        </div> 
+                    </a>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal12" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title text-center">Image header</h4> 
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          
+        </div>
+        <div class="modal-body">
+          <img src="./IMG/11.png" alt="" width="100%" height="100%">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae sed delectus explicabo autem dicta laudantium mollitia nulla deleniti optio laboriosam sapiente praesentium nisi</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+                </div>
+            </div>
+        </div>                
             
     </div>
     <div class="col-sm-2"></div>
@@ -368,6 +727,7 @@
   
   <!-- Optional JavaScript -->
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="./js/script.js"></script>
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
